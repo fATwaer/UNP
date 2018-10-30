@@ -1,8 +1,8 @@
 # UNP
 Unix Network Programming
 
-
-## install 
+    
+## Install 
 
 source code: <http://www.unpbook.com/src.html>
 
@@ -27,7 +27,7 @@ there are two files that need to modify.
 ```
 
 ``` sh
-cd lib
+$ cd lib
 $ make
 $ cd libfree
 $ make
@@ -53,7 +53,7 @@ $ sudo cp config.h /usr/include
     gcc 1-5.c -lunp 
 
 ## running
-the server on 206.168.112.96 is down, we can use the 1-9 to test.
+the server on 206.168.112.96 is down, we can use the 1-9 instead.
 
 ```
 [moonlight@ArchLinux c1]$ sudo ./1-9
